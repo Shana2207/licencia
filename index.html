@@ -261,7 +261,7 @@
                   </div>
                   <div class="col-md-10">
                     <div class="form-button">
-                      <button type="submit" class="button"> <i class="lni lni-telegram-original"></i> Solicitar</button>
+                      <button type="submit" class="button" data-toggle="modal" data-target="#modal"> <i class="lni lni-telegram-original"></i> Solicitar</button>
                     </div>
                   </div>
                 </div>
@@ -273,6 +273,36 @@
       </div>
     </section>
     <!-- ========================= contact-style-3 end ========================= -->
+    <div class="modal" tabindex="-1" id="modal2">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cupón Válido</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" tabindex="-1" id="modal2">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Cupón Incorrecto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" tabindex="-1" id="modal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Enviado Exitosamente</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <a href="https://api.whatsapp.com/send?phone=51966924054&text=Hola,%20quisiera%20mas%20informacion%20sobre%20la%20licencia%20digital%20" class="btn-flotante" target="blank"><i class="lni lni-whatsapp"></i></a>
 
@@ -312,6 +342,7 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/getForm.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   </body>
 
 
