@@ -19,11 +19,12 @@ contactForm.addEventListener('submit', async e => {
     const precio = todoForm['precio'].value;
     const cupon = todoForm['cupon'].value;
     if(cupon == 'aodcupones'){
+        $('#modal3').modal('show');
     }else{
-        alert('cupon no valido');
+        $('#modal2').modal('show');
         return;
     }
     await create(name, phone, dni, precio, cupon); // Llamo a mi función create
-    alert('Enviado exitosamente');
+    $('#modal').modal('show');
     todoForm.reset(); // Reseteamos los campos
 });
