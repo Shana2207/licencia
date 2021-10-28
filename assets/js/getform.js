@@ -18,7 +18,7 @@ contactForm.addEventListener('submit', async e => {
     const dni = todoForm['dni'].value;
     const precio = todoForm['precio'].value;
     const cupon = todoForm['cupon'].value;
-    if(cupon == 'aodcupones'){
+    if(cupon == 'kyramoda' || cupon == 'cleyma' || cupon == 'aodperu' ){
         $('#modal3').modal('show');
     }else{
         $('#modal2').modal('show');
